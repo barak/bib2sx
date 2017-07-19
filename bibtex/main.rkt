@@ -15,9 +15,9 @@
   
   ;; Lexical analysis of BibTeX
   
-  ; Most of the complexity in analyzing BibTeX has bene
+  ; Most of the complexity in analyzing BibTeX has been
   ; pushed into the lexer.  The lexer may recognize the same
-  ; token different depending on the context.
+  ; token differently depending on the context.
   
   ; The lexer tracks whether it is inside quotes (") and
   ; how many layers of {}-nesting it is within.
